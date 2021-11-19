@@ -1,0 +1,5 @@
+{
+    "containerUser": "node",
+    "image": "node:17.1.0",
+    "postCreateCommand": "yarn"
+}
