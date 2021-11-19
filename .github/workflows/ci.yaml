@@ -10,7 +10,7 @@ jobs:
             -   uses: actions/cache@v2
                 with:
                     path: node_modules
-                    key: ${{ hashFiles('package.json') }}
+                    key: ${{ hashFiles('yarn.lock') }}
             -   run: yarn
             -   run: yarn build
             -   uses: JamesIves/github-pages-deploy-action@4.1.6
